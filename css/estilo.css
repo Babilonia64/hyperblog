@@ -5,6 +5,22 @@ body
     font-family: 'Courier New', Courier, monospace;
     font-size: 16px;
 }
+
+#cabecera
+{
+    background: #0e4;
+    box-shadow: 0px 2px 10px 0px rgb(0, 0, 0);
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    padding: 0.5em;
+}
+#cabecera #tagline
+{
+    margin: 0 0 0 1em;
+    font-weight: normal;
+    font-size: 0.8em;
+}
 #container
 {
     width: 70%;
@@ -16,4 +32,8 @@ body
 #container
 {
     font-size: 20px;
+}
+#post
+{
+    padding: 1em;
 }
